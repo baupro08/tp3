@@ -1,14 +1,16 @@
+//act 1
 let animales = ["perro", "gato", "conejo", "loro"];
 for(let i = 0; i < amimales.lenght; i++) {
     console.log(animales[i]);
 }
+//act 2
 for (let i = 0; i < animales.length; i++) {
     if (i % 2 === 0) {
         console.log(animales[i]);
     }
 }
 
-
+//act3
 let numeros = [4, 7, 2, 9, 5];
 let sumaTotal = 0;
 
@@ -17,7 +19,7 @@ for (let i = 0; i < numeros.length; i++) {
 }
 
 console.log("La suma es " + sumaTotal);
-
+//act4
 let datos = [3, 6, 1, 8];
 let nuevoArreglo = [];
 
@@ -26,7 +28,7 @@ for (let i = 0; i < datos.length; i++) {
 }
 
 console.log(nuevoArreglo);
-
+//act 5
 let alumnos = ["Sofía", "Carlos", "Bruno", "Lucía", "Carla"];
 let nombreBuscado = prompt("Ingresa el nombre que quieres buscar:");
 
@@ -35,7 +37,7 @@ if (alumnos.includes(nombreBuscado)) {
 } else {
     console.log("El nombre no se encuentra en el arreglo.");
 }
-
+//act6
 let valores = [5, 0, 8, 0, 2];
 
 for (let i = 0; i < valores.length; i++) {
@@ -45,7 +47,7 @@ for (let i = 0; i < valores.length; i++) {
 }
 
 console.log(valores); 
-
+//act10
 let notas = [8, 7, 9, 10, 6];
 let suma = 0;
 
@@ -58,3 +60,4 @@ for (let i = 0; i < notas.length; i++) {
 let promedio = suma / notas.length;
 
 console.log("El promedio es " + promedio); 
+
